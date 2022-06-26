@@ -1,0 +1,364 @@
+@media (min-width : 320px) and (max-width : 767px) {
+
+        nav .logo {
+                        margin-top: 20px;
+                }
+        .menu-icon {
+                display: block;
+        }
+
+        .menu-list {
+                flex-direction: column;
+                background: hsl(257, 27%, 26%);
+                margin-top: 5pc;
+                z-index: 11111;
+                width: 400px;
+                height: 320px;
+                position: absolute;
+                text-align: center;
+                border-radius: 10px;
+                padding-bottom: 20px;
+                display: none;
+        }
+
+        .menu-list-open {
+                display: block;
+        }
+
+        nav ul li a {
+                margin-top: 10px;
+                display: inline-block;
+                font-weight: 700;
+                font-size: 18px;
+                color: white;
+        }
+
+        hr {
+                display: inline-block;
+                width: 80%;
+                margin: 20px 40px 0px 32px;
+                border: solid 0.01px grey;
+        }
+
+        nav ul li:last-child a {
+                width: 75%;
+                padding: 12px 25px;
+        }
+
+
+        /* -------Hero Section------- */
+        .hero .row {
+                flex-direction: column-reverse;
+                /* margin: 0; */
+        }
+
+        .hero .leftSide {
+                text-align: center;
+
+        }
+
+        .hero .leftSide h1 {
+                font-size: 45px;
+                margin-bottom: 10px;
+        }
+
+        .hero .leftSide p {
+                font-size: 18px;
+        }
+
+        
+
+        /* -------Links Input------- */
+
+        .links {
+                width: 300px;
+        }
+
+        .linksInput {
+                /* margin-top: 0pc; */
+                height: 170px;
+                background-image: url('../img/bg-shorten-mobile.svg');
+                padding: 1pc 1pc 3pc 0pc;
+                /* padding-bottom: 3pc; */
+        }
+
+        .linksInput input {
+                margin: 1pc 0 0 2pc;
+        }
+
+        .linksInput a {
+
+                width: 70%;
+                padding: 16px 35px;
+                border-radius: 10px;
+                margin-left: 2pc;
+                display: inline-block;
+                margin-top: 2pc;
+                text-align: center;
+                font-size: 18px;
+        }
+        .hero .rightSide img {
+                width: 435px;
+                height: 340px;
+        }
+        .copyBtn {
+                margin-left: 2pc;
+        }
+
+        /* -------Statistics------- */
+
+        .statistics .statsText h1 {
+                font-size: 30px;
+        }
+
+        .statistics .row {
+                flex-direction: column;
+        }
+
+        .backGround {
+                top: 155%;
+                height: 1950px;
+        }
+
+        .statistics .card {
+                width: 90%;
+                text-align: center;
+        }
+
+
+        .statistics .card:first-child::after {
+                border: none;
+                left: 35%;
+                top: 122%;
+                padding: 7px 40px;
+                transform: rotate(90deg);
+                background-color: #2bd1d1;
+        }
+
+        .statistics .card:nth-child(2)::after {
+                border: none;
+                left: 35%;
+                top: 122%;
+                padding: 7px 40px;
+                transform: rotate(90deg);
+                background-color: #2bd1d1;
+        }
+
+        .statistics .card .img {
+                left: 40%;
+        }
+
+
+        /* -------Outro------- */
+        .outro {
+                background-image: url('../img/bg-boost-mobile.svg');
+        }
+
+        footer {
+                text-align: center;
+        }
+
+        footer .row {
+                flex-direction: column;
+        }
+
+        footer .logo {
+                margin-bottom: 3pc;
+        }
+
+        footer .info {
+                margin-bottom: 2pc;
+        }
+}
+
+
+@media (min-width : 768px) and (max-width : 991px)
+{
+
+        .menu-icon {
+                        display: block;
+                }
+        
+        .menu-list {
+                        flex-direction: column;
+                        background: hsl(257, 27%, 26%);
+                        margin-top: 5pc;
+                        z-index: 11111;
+                        width: 620px;
+                        height: 320px;
+                        position: absolute;
+                        text-align: center;
+                        border-radius: 10px;
+                        padding-bottom: 20px;
+                        display: none;
+        }
+        
+        .menu-list-open {
+                        display: block;
+        }
+        
+        nav ul li a {
+                        margin-top: 10px;
+                        display: inline-block;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: white;
+        }
+        
+        hr {
+                        display: inline-block;
+                        width: 80%;
+                        margin: 20px 40px 0px 32px;
+                        border: solid 0.01px grey;
+        }
+        
+        nav ul li:last-child a {
+                        width: 75%;
+                        padding: 12px 25px;
+        }
+
+
+
+         .hero .row {
+                flex-direction: column-reverse;
+        }
+
+        .hero .leftSide {
+                text-align: center;
+
+        }
+
+        .hero .leftSide h1 {
+                font-size: 45px;
+                margin-bottom: 10px;
+        }
+
+        .hero .leftSide p {
+                font-size: 18px;
+        }
+
+        .hero .rightSide img
+        {
+                width: 645px;
+                height: 400px;
+        }
+
+        .backGround
+       {
+        top: 150%;
+        height: 1900px;
+       }
+
+       .linksInput
+       {
+                padding: 30px 10px 5pc;
+       }
+       .linksInput a
+       {
+                margin-top: 15px;
+                padding: 8px 30px;
+                margin-left: 2pc;
+       }
+
+       .statistics .row {
+               flex-direction: column;
+       }
+    
+       .statistics .card {
+               width: 85%;
+               text-align: center;
+       }
+
+       .statistics .card:first-child::after {
+               border: none;
+               left: 35%;
+               top: 122%;
+               padding: 7px 40px;
+               transform: rotate(90deg);
+               background-color: #2bd1d1;
+       }
+
+       .statistics .card:nth-child(2)::after {
+               border: none;
+               left: 35%;
+               top: 122%;
+               padding: 7px 40px;
+               transform: rotate(90deg);
+               background-color: #2bd1d1;
+       }
+
+       .statistics .card .img {
+               left: 40%;
+       }
+
+
+
+}
+
+
+@media (min-width : 992px) and (max-width : 1024px) 
+{
+        .hero .rightSide img
+        {
+                width: 450px;
+                height: 400px;
+        }
+        .hero .leftSide h1 {
+                font-size: 35px;
+                margin-bottom: 10px;
+        }
+
+        .hero .leftSide p {
+                font-size: 15px;
+        }
+
+        .linksInput
+       {
+                padding: 30px 10px 5pc;
+       }
+       .linksInput a
+       {
+                margin-top: 15px;
+                padding: 8px 30px;
+                margin-left: 2pc;
+       }
+
+       .statistics .card {
+               width: 25%;
+               text-align: center;
+               height: 250px;
+       }
+
+}
+
+@media (min-width : 1025px) and (max-width : 1366px)
+{
+        .hero .rightSide img
+        {
+                 width: 500px;
+                height: 400px;
+        }
+         .hero .leftSide h1 {
+                font-size: 45px;
+                margin-bottom: 10px;
+        }
+
+        .linksInput
+       {
+                padding: 30px 10px 5pc;
+       }
+       .linksInput a
+       {
+                margin-top: 15px;
+                padding: 8px 30px;
+                margin-left: 2pc;
+       }
+
+       .statistics .card {
+               width: 25%;
+               text-align: center;
+               height: 250px;
+       }
+
+
+}

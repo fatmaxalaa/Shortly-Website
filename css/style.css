@@ -1,0 +1,416 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+}
+
+a {
+        text-decoration: none;
+}
+
+li {
+        list-style: none;
+
+}
+
+.container {
+        width: 80%;
+        margin: auto;
+}
+
+.row {
+        display: flex;
+        justify-content: space-between;
+}
+
+/* -------Nav Bar-------  */
+
+nav {
+        height: 80px;
+        width: 100%;
+}
+
+nav .logo {
+        margin-top: 30px;
+}
+
+.menu-list {
+        display: flex;
+        margin-top: 1pc;
+}
+
+.menu-icon {
+        display: none;
+        font-size: 30px;
+        color: hsl(0, 0%, 75%);
+        margin-top: 10px;
+        cursor: pointer;
+}
+
+.menu-icon:hover {
+        color: hsl(257, 27%, 26%);
+        transition: 0.5s;
+}
+
+hr {
+        display: none;
+
+}
+
+nav ul li {
+        margin-top: 15px;
+}
+
+nav ul li a {
+        color: hsl(0, 0%, 75%);
+        margin: 0px 25px;
+
+
+}
+
+nav ul li a:hover {
+        color: black;
+        transition: 0.5s;
+}
+
+nav ul li:last-child a {
+        color: white;
+        margin-left: 25px;
+        background-color: #2bd1d1;
+        padding: 10px 25px;
+        border-radius: 25px;
+}
+
+/* -------Hero Section------- */
+.hero {
+        margin-top: 3pc;
+}
+
+.hero .leftSide {
+        margin-top: 3pc;
+
+}
+
+.hero .leftSide h1 {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+}
+
+.hero .leftSide p {
+        font-size: 20px;
+        color: hsl(0, 0%, 75%);
+
+}
+
+.hero .leftSide a {
+        background: #2bd1d1;
+        border: none;
+        font-weight: bold;
+        color: white;
+        width: 110px;
+        padding: 13px 35px;
+        border-radius: 20px;
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 2pc;
+        text-align: center;
+}
+
+.hero .leftSide a:hover {
+        background: #23adad;
+}
+
+.hero .rightSide img {
+        width: 650px;
+        position: relative;
+        left: 0%;
+        bottom: 0;
+        margin-top: 3pc;
+        animation: MoveUpDown 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+
+        0%,
+        100% {
+                bottom: 0;
+        }
+
+        50% {
+                bottom: 20px;
+        }
+}
+
+
+/* -------Links Input------- */
+.linksInput {
+        margin-top: 7pc;
+        background-color: hsl(257, 27%, 26%);
+        background-image: url('../img/bg-shorten-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: 100%;
+        padding-bottom: 40px;
+        height: 100px;
+}
+
+.linksInput input {
+        width: 75%;
+        padding: 22px;
+        margin: 1pc 0 0 2pc;
+        border-radius: 10px;
+        border: none;
+        font-size: 17px;
+
+}
+
+.linksInput a {
+        background: #2bd1d1;
+        border: none;
+        font-weight: bold;
+        color: white;
+        width: 110px;
+        padding: 16px 35px;
+        border-radius: 10px;
+        margin-left: 15px;
+        display: inline-block;
+        margin-top: 2pc;
+        text-align: center;
+        font-size: 20px;
+}
+
+.linksInput a:hover {
+        background-color: #23adad;
+}
+
+#check {
+        color: rgb(248, 71, 71);
+        margin: 10px 30px;
+        font-style: italic;
+}
+
+.valid::placeholder {
+        color: rgb(249, 100, 100);
+}
+
+.valid:invalid {
+        border: 2px solid red;
+
+}
+
+.linksOutput {
+        height: auto;
+        margin-top: 15px;
+}
+
+.links {
+        margin: 10px;
+        /* border-bottom: 1px solid grey; */
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        width: 700px;
+}
+
+.linksDiv {
+        background-color: white;
+        height: auto;
+        border-radius: 10px;
+        /* padding: 10px; */
+        margin-top: 15px;
+        padding-bottom: 3pc;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.copyBtn {
+
+        background: #2bd1d1;
+        border: none;
+        font-weight: bold;
+        color: white;
+        width: 220px;
+        padding: 13px 35px;
+        border-radius: 10px;
+        margin-left: 30pc;
+        display: inline-block;
+        margin-top: 1pc;
+        text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+}
+
+/* -------Statistics------- */
+
+
+.statistics {
+
+        margin-top: 7pc;
+}
+
+.statistics .statsText {
+        text-align: center;
+}
+
+.statistics .statsText h1 {
+        font-size: 40px;
+        margin-top: 7pc;
+}
+
+.statistics .statsText p {
+        color: hsl(0, 0%, 60%);
+        margin-top: 15px;
+        font-size: 18px;
+}
+
+.backGround {
+        background-color: #f0f1f6;
+        width: 100%;
+        height: 1280px;
+        position: absolute;
+        top: 110%;
+        z-index: -11;
+}
+
+.statistics .card {
+        padding: 20px;
+        margin-top: 5pc;
+        background-color: white;
+        width: 27%;
+        height: 200px;
+        position: relative;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.statistics .card:first-child::after {
+        content: "";
+        width: 40px;
+        border: 8px solid #2bd1d1;
+        position: absolute;
+        left: 100%;
+        top: 50%;
+}
+
+.statistics .card:nth-child(2)::after {
+        content: "";
+        width: 40px;
+        border: 8px solid #2bd1d1;
+        position: absolute;
+        left: 100%;
+        top: 50%;
+}
+
+.statistics .card .img {
+        background-color: hsl(257, 27%, 26%);
+        padding: 20px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -20%;
+}
+
+.statistics .card h1 {
+        margin-top: 3pc;
+}
+
+.statistics .card p {
+        color: hsl(0, 0%, 60%);
+        margin-top: 10px;
+        font-size: 14px;
+}
+
+.statistics .card:nth-child(2) {
+        top: 40px;
+}
+
+.statistics .card:nth-child(3) {
+        top: 80px;
+}
+
+
+/* -------Outro------- */
+.outro {
+        background-color: hsl(257, 27%, 26%);
+        height: 170px;
+        margin-top: 10pc;
+        padding-top: 5pc;
+        background-image: url('../img/bg-boost-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: 100%;
+}
+
+
+.outro .text {
+        text-align: center;
+}
+
+.outro .text h1 {
+        color: white;
+}
+
+.outro .text a {
+        background: #2bd1d1;
+        border: none;
+        font-weight: bold;
+        color: white;
+        padding: 10px 35px;
+        border-radius: 25px;
+        margin-left: 15px;
+        display: inline-block;
+        margin-top: 2pc;
+        text-align: center;
+        font-size: 20px;
+}
+
+
+.outro .text a:hover {
+        background-color: #23adad;
+}
+
+footer {
+        background-color: #232027;
+        padding: 3pc 0;
+}
+
+footer .logo {
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+}
+
+footer .info {
+        color: hsl(0, 0%, 60%);
+}
+
+footer .info ul li:first-child {
+        margin-bottom: 20px;
+        color: white;
+}
+
+footer .info ul li {
+        margin-bottom: 10px;
+        cursor: pointer;
+}
+
+footer .info ul li:hover {
+        color: white;
+        transition: 0.5s;
+
+}
+
+footer .socialIcons i {
+        color: white;
+        margin-left: 15px;
+        font-size: 20px;
+}
+
+footer .socialIcons i:hover {
+        color: hsl(0, 0%, 60%);
+}
